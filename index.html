@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex Detector</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lilita+One&display=swap" rel="stylesheet">
+    <script defer src="script.js"></script>
+</head>
+<body>
+    <div class="background-overlay">
+        <img src="website.background.png" alt="Overlay Image" class="overlay-image">
+    </div>
+    <div class="container">
+        <h1>Welcome to the Flex Detector!</h1>
+        <p>Analyze social media posts to detect "flexing" or showing off!</p>
+        
+        <textarea id="userInput" placeholder="Enter your text here" rows="4"></textarea>
+        
+        <button onclick="detectFlexing()">Check for Flexing</button>
+
+        <p id="result"></p>
+
+        <div class="flex-meter">
+            <div class="meter">
+                <div class="meter-fill"></div>
+            </div>
+            <p id="flex-level">Flex Level: 0%</p>
+        </div>
+    </div>
+    <div id="emojiRain"></div>
+</body>
+</html>
