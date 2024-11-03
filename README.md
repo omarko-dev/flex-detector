@@ -1,7 +1,3 @@
-Here's a detailed README to showcase your **Flex Detector** project:
-
----
-
 # Flex Detector 💪
 
 Welcome to the **Flex Detector**! This project is a web tool designed to analyze social media captions or posts and determine if they're "flexing" (showing off). It's a fun, interactive way to engage with social media content and see if a post is humble or if it leans towards a display of extravagance.
